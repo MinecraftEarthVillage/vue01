@@ -1,4 +1,4 @@
-name: 部署到Git Hub页面
+name: 部署到GitHub页面
 on: [push]
 jobs:
   build-deploy:
@@ -17,3 +17,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+              # 添加以下两行关键配置 👇
+          keep_files: true    # 防止文件被误删
+          destination_dir: /  # 强制部署到根目录
