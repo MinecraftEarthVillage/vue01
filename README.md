@@ -22,3 +22,5 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+~~等等，不对劲，课上没讲怎么在Github部署:(~~
