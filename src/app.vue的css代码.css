@@ -3,6 +3,11 @@
     margin: 0px;
     padding: 0px;
   }
+  body {
+    margin: 0; /* 清除默认边距 */
+    /* 关键：确保内容不会被页脚遮挡 */
+    padding-bottom: 500px; /* 值等于页脚高度 */
+}
   .header, .footer {
             height: 50px;
             background-color: grey;
@@ -11,8 +16,16 @@
             text-align: center;
             line-height: 50px;
         }
+                /* 新增的页脚固定样式 */
+                .footer {
+                  position: fixed; /* 关键：固定在视窗 */
+                  bottom: 0;      /* 紧贴底部 */
+                  left: 0;        /* 左对齐 */
+                  right: 0;       /* 右对齐（撑满宽度） */
+                  width: 100%;    /* 确保宽度撑满 */
+              }
   .content {
-    height: 400px;
+    height: 100%;
     float: left;
     width:500px;
   }

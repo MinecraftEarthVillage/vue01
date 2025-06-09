@@ -15,6 +15,10 @@
     <li><router-link to="/test13_fathers">test13-fathers</router-link></li>
     <li><router-link to="/test13_2">test13-2</router-link></li>
     <li><router-link to="/test10_1">test10-1</router-link></li>
+    <li><router-link to="/test10_2">test10-2</router-link></li>
+    <li><router-link to="/test10_3">test10-3</router-link></li>
+    <li><router-link to="/test10_4">test10-4</router-link></li>
+
 
   </ul>
 </div>
