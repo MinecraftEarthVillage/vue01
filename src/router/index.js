@@ -18,6 +18,7 @@ import test12_1组合式 from '../components/test12-1组合式';
 import test13_1 from '../components/test13-1';
 import test13_fathers from '../实验13新/fathers';
 import test13_2 from '../components/test13-2';
+import test10_1 from '../实验15/test10-1';
 const routes = [
   {
     path: '/',
@@ -118,6 +119,14 @@ const routes = [
     component: test13_2,
     meta:{
       title:'实验13的作业test13-2'
+    }
+  },
+  {
+    path: '/test10_1',
+    name: 'test10_1',
+    component: test10_1,
+    meta:{
+      title:'实验15的作业test10-1'
     }
   },
 ]
