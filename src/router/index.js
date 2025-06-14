@@ -18,6 +18,11 @@ import test12_1组合式 from '../components/test12-1组合式';
 import test13_1 from '../components/test13-1';
 import test13_fathers from '../实验13新/fathers';
 import test13_2 from '../components/test13-2';
+import test10_1 from '../实验15/test10-1';
+import test10_2 from '../实验15/test10-2';
+import test10_3 from '../实验15/test10-3';
+import test10_4 from '../实验15/test10-4';
+
 const routes = [
   {
     path: '/',
@@ -118,6 +123,38 @@ const routes = [
     component: test13_2,
     meta:{
       title:'实验13的作业test13-2'
+    }
+  },
+  {
+    path: '/test10_1',
+    name: 'test10_1',
+    component: test10_1,
+    meta:{
+      title:'实验15的作业test10-1'
+    }
+  },
+  {
+    path: '/test10_2',
+    name: 'test10_2',
+    component: test10_2,
+    meta:{
+      title:'实验15的作业test10-2'
+    }
+  },
+  {
+    path: '/test10_3',
+    name: 'test10_3',
+    component: test10_3,
+    meta:{
+      title:'实验15的作业test10-3'
+    }
+  },
+  {
+    path: '/test10_4',
+    name: 'test10_4',
+    component: test10_4,
+    meta:{
+      title:'实验15的作业test10-4'
     }
   },
 ]
