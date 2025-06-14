@@ -18,6 +18,8 @@
   </ul>
 </div>
 <div class="content right">
+  因为GithubPage的神奇机制，点进去一个作业后不能刷新，也不能复制网址在别处访问（你应该也注意到地址栏的/vue01/直接被替换成子页面吧）
+ <hr> <hr> <hr> <hr> <hr> <hr> <hr> <hr>
   <router-view></router-view>
 </div>
 <div class="footer">版权页</div>
