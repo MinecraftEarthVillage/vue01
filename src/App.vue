@@ -18,6 +18,10 @@
     <li><router-link to="/test10_2">test10-2</router-link></li>
     <li><router-link to="/test10_3">test10-3</router-link></li>
     <li><router-link to="/test10_4">test10-4</router-link></li>
+    <li><router-link to="/test11-1">test11-1</router-link></li>
+    <li><router-link to="/test11-2">test11-2</router-link></li>
+    <li><router-link to="/test11-3">test11-3</router-link></li>
+    <li><router-link to="/test11-4">test11-4</router-link></li>
 
 
   </ul>

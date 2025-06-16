@@ -22,6 +22,10 @@ import test10_1 from '../实验15/test10-1';
 import test10_2 from '../实验15/test10-2';
 import test10_3 from '../实验15/test10-3';
 import test10_4 from '../实验15/test10-4';
+import test11_1 from '../实验16/test11-1';
+import test11_2 from '../实验16/test11-2';
+import test11_3 from '../实验16/test11-3';
+import test11_4 from '../实验16/test11-4';
 
 const routes = [
   {
@@ -155,6 +159,38 @@ const routes = [
     component: test10_4,
     meta:{
       title:'实验15的作业test10-4'
+    }
+  },
+  {
+    path: '/test11-1',
+    name: 'test11_1',
+    component: test11_1,
+    meta:{
+      title:'实验16的作业test11-1'
+    }
+  },
+  {
+    path: '/test11-2',
+    name: 'test11_2',
+    component: test11_2,
+    meta:{
+      title:'实验16的作业test11-2'
+    }
+  },
+  {
+    path: '/test11-3',
+    name: 'test11_3',
+    component: test11_3,
+    meta:{
+      title:'实验16的作业test11-3'
+    }
+  },
+  {
+    path: '/test11-4',
+    name: 'test11_4',
+    component: test11_4,
+    meta:{
+      title:'实验16的作业test11-4'
     }
   },
 ]
