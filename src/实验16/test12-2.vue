@@ -19,7 +19,7 @@ methods:{
         },
         xAxis:{type:"category"},
         yAxis:{},
-        series:[{type:"bar",stack:"check"},{type:"bar",stack:"check"}],
+        series:[ { type: "line" } ,{ type: "bar" }],
         dataset:{
             source:Data
         }

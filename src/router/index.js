@@ -30,6 +30,7 @@ import test11_4 from '../实验16/test11-4';
 import test11_5 from '../实验16/test11-5';
 import test12_1 from '../实验16/test12-1';
 import test12_2 from '../实验16/test12-2';
+import test12_3 from '../实验16/test12-3';
 
 const routes = [
   {
@@ -220,6 +221,15 @@ const routes = [
     component: test12_2,
     meta:{
       title:'实验16的作业test12-2'
+    }
+  },
+  
+  {
+    path: '/test12-3',
+    name: 'test12_3',
+    component: test12_3,
+    meta:{
+      title:'实验16的作业test12-3'
     }
   },
 ]
