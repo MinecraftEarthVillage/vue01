@@ -1,5 +1,5 @@
 <template>
-    <div ref="radar" style="width: 800px;height: 600px;"></div>
+    <div ref="test" style="width: 800px;height: 600px;"></div>
 </template>
 
 <script>

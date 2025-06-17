@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
-// import HomeView from '../views/HomeView.vue'
+
 // import 格桑花 from '../components/格桑花.vue'
 // import HomeNews from '../components/HomeNews'
 // import HomeMsg from '../components/HomeMsg'
 // import User from '../components/User'
 // import UserInfo from '../components/UserInfo'
 import HomeView from '../views/HomeView.vue'
+import App from '../App.vue'
 import 计数器 from '../components/父组件.vue'
 import 区块链 from '../components/fathercomp.vue'
 import 实验8_1 from "../实验8/TabFather.vue";
@@ -27,13 +28,16 @@ import test11_2 from '../实验16/test11-2';
 import test11_3 from '../实验16/test11-3';
 import test11_4 from '../实验16/test11-4';
 import test11_5 from '../实验16/test11-5';
+import test12_1 from '../实验16/test12-1';
+import test12_2 from '../实验16/test12-2';
 
 const routes = [
   {
     path: '/',
-    redirect: '/HomeView',
-    component:'HomeView'
+    redirect: '/App',
+    component:'App'
   },
+
   {
     path: '/计数器+1',
     name: '计数器',
@@ -200,6 +204,22 @@ const routes = [
     component: test11_5,
     meta:{
       title:'实验16的作业test11-5'
+    }
+  },
+  {
+    path: '/test12-1',
+    name: 'test12_1',
+    component: test12_1,
+    meta:{
+      title:'实验16的作业test12-1'
+    }
+  },
+  {
+    path: '/test12-2',
+    name: 'test12_2',
+    component: test12_2,
+    meta:{
+      title:'实验16的作业test12-2'
     }
   },
 ]
