@@ -34,7 +34,7 @@
 
   <router-view></router-view>
 </div>
-<div class="footer">版权页</div>
+<div class="footer">源码仓库：https://github.com/MinecraftEarthVillage/vue01</div>
 </template>
 
 <style scoped src="./app.vue的css代码.css"/>
