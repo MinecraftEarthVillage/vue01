@@ -26,8 +26,15 @@
     <li><router-link to="/test12-1">test12-1</router-link></li>
     <li><router-link to="/test12-2">test12-2</router-link></li>
     <li><router-link to="/test12-3">test12-3</router-link></li>
+    <li><router-link to="/test17-1">test17-1</router-link></li>
+    <li><router-link to="/test17-2">test17-2</router-link></li>
+    <li><router-link to="/test17-3">test17-3</router-link></li>
+    <li><router-link to="/test17-4">test17-4</router-link></li>
+    <li><router-link to="/test17-5">test17-5</router-link></li>
+    <li><router-link to="/test17-6">test17-6</router-link></li>
+    <li><router-link to="/test17-7">test17-7</router-link></li>
 
-
+<br><br><br>
   </ul>
 </div>
 <div class="content right">

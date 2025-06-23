@@ -31,6 +31,13 @@ import test11_5 from '../实验16/test11-5';
 import test12_1 from '../实验16/test12-1';
 import test12_2 from '../实验16/test12-2';
 import test12_3 from '../实验16/test12-3';
+import test17_1 from '../实验17/test17-1';
+import test17_2 from '../实验17/test17-2';
+import test17_3 from '../实验17/test17-3';
+import test17_4 from '../实验17/test17-4';
+import test17_5 from '../实验17/test17-5';
+import test17_6 from '../实验17/test17-6';
+import test17_7 from '../实验17/test17-7';
 
 const routes = [
   {
@@ -230,6 +237,62 @@ const routes = [
     component: test12_3,
     meta:{
       title:'实验16的作业test12-3'
+    }
+  },
+  {
+    path: '/test17-1',
+    name: 'test17_1',
+    component: test17_1,
+    meta:{
+      title:'实验17的作业test17-1'
+    }
+  },
+  {
+    path: '/test17-2',
+    name: 'test17_2',
+    component: test17_2,
+    meta:{
+      title:'实验17的作业test17-2'
+    }
+  },
+  {
+    path: '/test17-3',
+    name: 'test17_3',
+    component: test17_3,
+    meta:{
+      title:'实验17的作业test17-3'
+    }
+  },
+  {
+    path: '/test17-4',
+    name: 'test17_4',
+    component: test17_4,
+    meta:{
+      title:'实验17的作业test17-4'
+    }
+  },
+  {
+    path: '/test17-5',
+    name: 'test17_5',
+    component: test17_5,
+    meta:{
+      title:'实验17的作业test17-5'
+    }
+  },
+  {
+    path: '/test17-6',
+    name: 'test17_6',
+    component: test17_6,
+    meta:{
+      title:'实验17的作业test17-6'
+    }
+  },
+  {
+    path: '/test17-7',
+    name: 'test17_7',
+    component: test17_7,
+    meta:{
+      title:'实验17的作业test17-7'
     }
   },
 ]
