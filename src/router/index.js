@@ -38,6 +38,11 @@ import test17_4 from '../实验17/test17-4';
 import test17_5 from '../实验17/test17-5';
 import test17_6 from '../实验17/test17-6';
 import test17_7 from '../实验17/test17-7';
+import test18_1 from '../实验18/test18-1';
+import test18_2 from '../实验18/test18-2';
+import test18_3 from '../实验18/test18-3';
+import test18_4 from '../实验18/test18-4';
+import test18_5 from '../实验18/test18-5';
 
 const routes = [
   {
@@ -293,6 +298,46 @@ const routes = [
     component: test17_7,
     meta:{
       title:'实验17的作业test17-7'
+    }
+  },
+  {
+    path: '/test18-1',
+    name: 'test18_1',
+    component: test18_1,
+    meta:{
+      title:'实验18的作业test18-1'
+    }
+  },
+  {
+    path: '/test18-2',
+    name: 'test18_2',
+    component: test18_2,
+    meta:{
+      title:'实验18的作业'
+    }
+  },
+  {
+    path: '/test18-3',
+    name: 'test18_3',
+    component: test18_3,
+    meta:{
+      title:'实验18的作业'
+    }
+  },
+  {
+    path: '/test18-4',
+    name: 'test18_4',
+    component: test18_4,
+    meta:{
+      title:'实验18的作业'
+    }
+  },
+  {
+    path: '/test18-5',
+    name: 'test18_5',
+    component: test18_5,
+    meta:{
+      title:'实验18的作业'
     }
   },
 ]

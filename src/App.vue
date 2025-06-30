@@ -33,6 +33,11 @@
     <li><router-link to="/test17-5">test17-5</router-link></li>
     <li><router-link to="/test17-6">test17-6</router-link></li>
     <li><router-link to="/test17-7">test17-7</router-link></li>
+    <li><router-link to="/test18-1">test18-1</router-link></li>
+    <li><router-link to="/test18-2">test18-2</router-link></li>
+    <li><router-link to="/test18-3">test18-3</router-link></li>
+    <li><router-link to="/test18-4">test18-4</router-link></li>
+    <li><router-link to="/test18-5">test18-5</router-link></li>
 
 <br><br><br>
   </ul>
